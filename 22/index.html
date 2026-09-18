@@ -85,9 +85,10 @@ audio{display:none;}
 .t{font-size:16.5px;line-height:1.5;color:var(--ink);font-weight:bold;}
 .body{font-size:14.5px;color:#3b4453;margin-top:10px;}
 
-/* 看点块：正文 takeaway，琥珀橙焦点区 */
+/* 看点块：正文 takeaway，琥珀橙焦点区
+   对齐用 baseline：标签基线钉在正文第一行基线上，跨设备字体度量稳定 */
 .hl{margin-top:12px;background:#fdf3e3;border-left:3px solid var(--accent);
-  border-radius:0 10px 10px 0;padding:10px 14px;display:flex;gap:12px;align-items:flex-start;}
+  border-radius:0 10px 10px 0;padding:10px 14px;display:flex;gap:12px;align-items:baseline;}
 .hl-tag{flex:0 0 auto;font-size:12px;font-weight:bold;color:var(--accent);
   border:1.5px solid var(--accent);border-radius:6px;padding:2px 8px;
   line-height:1.4;letter-spacing:.08em;}
